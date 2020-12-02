@@ -152,19 +152,19 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-我的第一篇博客文章：搭建博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章</a>
+      <a class="article-title" href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">我的第一篇博客文章：搭建博客</a>
     </h1>
   
 
         
-        <a href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
+        <a href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
   	<time datetime="2020-12-01T10:53:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-01</time>
 </a>
         
@@ -172,11 +172,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
+        <h2 id="第一章-准备————部署环境"><a href="#第一章-准备————部署环境" class="headerlink" title="第一章 准备————部署环境"></a>第一章 准备————部署环境</h2><p>1.查看node的版本</p>
+<p>node -v<br>nmp  -v</p>
+<p>2安装hexo的框架</p>
+<p>借助 npm 安装 淘宝的 cnmp<br>npm install -g cnmp –registry=https//registry.npm.taobao.org</p>
+<p>cnpm install -g hexo-cli</p>
+<p>3验证框架<br>hexo -v</p>
 <hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
+<h2 id="第二章-初始化博客"><a href="#第二章-初始化博客" class="headerlink" title="第二章 初始化博客"></a>第二章 初始化博客</h2><p>1.建立空的文件夹<br>mkdir blog（文件夹名）<br>cd blog<br>2.初始化博客<br>hexo init （初始化） 需要安装git<br>等待….<br>dir       （ 查看 ）<br>3.启动博客<br>hexo s<br>localhost:4000 进入查看</p>
 <hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a target="_blank" rel="noopener" href="http://www.codesheep.cn/">www.codesheep.cn</a></p>
+<h2 id="第三章-写博客"><a href="#第三章-写博客" class="headerlink" title="第三章 写博客"></a>第三章 写博客</h2><p>1.hexo n “标题”<br>2.cd source/_posts<br>3.进入创建的博客进行编写 （支持makedown语法编写）<br>4.hexo g  （生成）<br>5.hexo s  （启动）</p>
+<hr>
+<h2 id="第四章-部署远端"><a href="#第四章-部署远端" class="headerlink" title="第四章 部署远端"></a>第四章 部署远端</h2><p>部署到github上<br>登录 github<br>新建仓库 new repository 注意名字必须是 名称.github.io</p>
+<p>安装一个插件<br>cnpm install –save hexo-deployer-git<br>设置 _config.yml 有个叫 Deployment的下面</p>
+<p>编辑成:deploy：<br>        type: git<br>        repo: 创建仓库的地址<br>        branch: master</p>
+<p>hexo d（部署）<br>*注意Windows下要运行run以下的语句（git ）</p>
+<hr>
+<h2 id="第五章-换主题"><a href="#第五章-换主题" class="headerlink" title="第五章 换主题"></a>第五章 换主题</h2><p>略.. 老婆找我了</p>
+<hr>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>感谢<br><a target="_blank" rel="noopener" href="http://www.codesheep.cn/">www.codesheep.cn</a></p>
 
       
 
@@ -189,7 +203,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/12/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
         </p>
       
 
